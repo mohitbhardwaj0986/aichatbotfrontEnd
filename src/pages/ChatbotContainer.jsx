@@ -31,7 +31,7 @@ const navigate = useNavigate()
       setError("");
       setRunLoader(true);
 
-      const response = await axios.post("http://localhost:3000/chat", {
+      const response = await axios.post("https://ai-power-chatboat-backend.onrender.com/chat", {
         message: trimmedInput,
       });
 
