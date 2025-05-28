@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.IoIosArrowRoundForward-parent:hover .IoIosArrowRoundForward{
+opacity: 0.5;
+
+}
+.chatbotsc-left::-webkit-scrollbar{
+ width: 8px;
+ height: 8px;
+}
+.chatbotsc-left::-webkit-scrollbar-track {
+  background: #0d1444; /* color of the track */
+  border-radius: 10px;
+}
+.chatbotsc-left::-webkit-scrollbar-thumb {
+  background-color: rgb(28,36,85); /* color of the scrollbar thumb */
+  border-radius: 10px;
+  border: 1px solid #5c5cec; /* creates padding around thumb */
+}
