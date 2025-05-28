@@ -70,7 +70,7 @@ const AlldeleteHandler = ()=>{
   return (
     <div className="xl:w-screen h-screen flex text-white">
       {/* Sidebar */}
-      <div className={`xl:w-[20vw] xl:static hembuger-slider duration-300 ${hemburgerFlag ? "left-[0%]" : "-left-[60%]"} absolute h-full bg-[rgb(28,36,85)] px-5 flex flex-col items-start justify-between gap-3 py-3 overflow-auto chatbotsc-left`}>
+      <div className={`xl:w-[20vw] xl:static hembuger-slider duration-300 ${hemburgerFlag ? "left-[0%]" : "-left-[80%]"} absolute h-full bg-[rgb(28,36,85)] px-5 flex flex-col items-start justify-between gap-3 py-3 overflow-auto chatbotsc-left`}>
         <div className=" flex flex-col  gap-3">
         {Array.isArray(allReply)?
           allReply.map((chat) => (
