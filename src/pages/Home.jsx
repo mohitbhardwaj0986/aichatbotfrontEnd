@@ -11,7 +11,7 @@ function Home() {
         <div className=" w-[400px] h-[300px] bg-purple-800 rounded-full blur-3xl opacity-50  "></div>
       </div>
       <div className="top-[10%]  absolute">
- <h1 onClick={()=>navigate("/chat")} navigate className="bg-[#050d42]/75 border backdrop-blur-md text-white text-center px-5 py-2 xl:w-[40%] w-[80%] m-auto mt-10 rounded-2xl shadow-xl font-semibold text-xl animate-fancy-entry hover:scale-105 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+ <h1 onClick={()=>navigate("/chat")} navigate className="bg-[#050d42]/75 border mb-5 backdrop-blur-md text-white text-center px-5 py-2 xl:w-[40%] w-[80%] m-auto mt-10 rounded-2xl shadow-xl font-semibold text-xl animate-fancy-entry hover:scale-105 hover:shadow-2xl transition-transform duration-300 ease-in-out">
   Start Conversation
 </h1>
       <div className="xl:flex justify-center px-8 items-center ">
